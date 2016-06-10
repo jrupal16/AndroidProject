@@ -45,10 +45,7 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
     ProgressDialog progressDialog;
 
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
+
     private GoogleApiClient client;
 
     @Override
@@ -103,11 +100,7 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
 
                     // use map to move camera into position
                     map.moveCamera(CameraUpdateFactory.newCameraPosition(INIT));
-                    /*map.addMarker(new MarkerOptions()
-                            .position(new LatLng(location.getLatitude(), location.getLongitude()))
-                            .draggable(true)
-                            .title("Location")
-                            .snippet("First Marker").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))).showInfoWindow();*/
+
                     Log.e("location", String.valueOf(location.getLatitude()) + " " + String.valueOf(location.getLongitude()));
                     AsyncFetchParkingDetails task = new AsyncFetchParkingDetails(location.getLatitude(), location.getLongitude());
                     task.execute();
@@ -311,7 +304,6 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             //progressDialog.dismiss();
-           /* adapter = new ParkingListAdapter(parkingDataList,ShowMapForParking.this);
             parkingData.setAdapter(adapter);*/
             map.clear();
             map.addMarker(new MarkerOptions()
