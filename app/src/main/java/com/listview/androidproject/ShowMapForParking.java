@@ -45,7 +45,10 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
     ProgressDialog progressDialog;
 
 
-
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
     private GoogleApiClient client;
 
     @Override
@@ -100,7 +103,11 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
 
                     // use map to move camera into position
                     map.moveCamera(CameraUpdateFactory.newCameraPosition(INIT));
-
+                    /*map.addMarker(new MarkerOptions()
+                            .position(new LatLng(location.getLatitude(), location.getLongitude()))
+                            .draggable(true)
+                            .title("Location")
+                            .snippet("First Marker").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))).showInfoWindow();*/
                     Log.e("location", String.valueOf(location.getLatitude()) + " " + String.valueOf(location.getLongitude()));
                     AsyncFetchParkingDetails task = new AsyncFetchParkingDetails(location.getLatitude(), location.getLongitude());
                     task.execute();
@@ -269,7 +276,7 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
 
         @Override
         protected Void doInBackground(Void... params) {
-            json = jsonparser.getJsonResponse(url,Jsonparser.GET);
+            json = jsonparser.getJsonFromUrl(url);
 
             try {
                 JSONObject parkingDataObj = new JSONObject(json);
@@ -280,7 +287,7 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
                 Log.e("size is" , parkingJsonList.toString());
                 for(int i=0;i<parkingJsonList.length();i++){
                     String location = parkingJsonList.getJSONObject(i).getString("location_name");
-                    String addr     = parkingJsonList.getJSONObject(i).getString("available_spots");
+                    String addr     = parkingJsonList.getJSONObject(i).getString("address");
                     String price    = parkingJsonList.getJSONObject(i).getString("price");
                     String distance = parkingJsonList.getJSONObject(i).getString("distance");
                     double latitude = parkingJsonList.getJSONObject(i).getDouble("lat");
@@ -304,6 +311,7 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             //progressDialog.dismiss();
+           /* adapter = new ParkingListAdapter(parkingDataList,ShowMapForParking.this);
             parkingData.setAdapter(adapter);*/
             map.clear();
             map.addMarker(new MarkerOptions()
@@ -316,7 +324,7 @@ public class ShowMapForParking extends FragmentActivity implements OnMapLongClic
                 map.addMarker(new MarkerOptions()
                         .position(new LatLng(parking.getLatitude(), parking.getLongitude()))
                         .title(parking.getLocationName())
-                        .snippet("Price: $"+parking.getPrice()+"  Avail. Spot: "+parking.getAddress()));
+                        .snippet("$"+parking.getPrice()));
             }
         }
     }
