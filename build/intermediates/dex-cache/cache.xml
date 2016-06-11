@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.3.0_85e91b8b30ebe489eb4fd534b561a4fb55fef9aa.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_218bed24544d5d5fdb7a7974f9438f0caa8d6ba3.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4d3de1e946207667e76261421de0218f132960e0">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.google.maps.android-android-maps-utils-0.4.3_c3f6af0fe52856dd30ce3b1a4f3f4920c7eb9271.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.3.0_bee51289d95f7564b30d91b6302a60a8bac42e61.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_a664a56d4703945e8ffeb3aad99c04673f004e67.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_24c5312dd66bae4afda5a5eb2e0f97502d75942f.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.4.0_2493f2fac97857d8894ba6b5992ecd1b253f7218.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.3.0_9985c0408d1fcf5799f12023f72ea4f4bc182b03.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.3.0_21e8ebfbf1ef3aacffa06641126cdbcd454a1f17.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_f4f43c913afdacf85b4cc7880c06f4a0b26b30b2.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.3.0_7325266a815bc663f9ecffda726f193c04524b0e.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_cc152ade192d8a72a37a10ec940545f82fa87d0f.jar" />
+    </item>
+    <item
+        jar="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/Macbook/Documents/ParkingSy/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_381bc5083682632d2ccca8c24f72548994872411.jar" />
+    </item>
+
+</items>
